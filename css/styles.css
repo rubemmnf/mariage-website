@@ -124,7 +124,7 @@
 
 .carousel {
     margin: 0 auto;
-    max-width: 80rem; /* Adjust as needed */
+    max-width: 40rem;
 }
 
 .carousel-inner img {
