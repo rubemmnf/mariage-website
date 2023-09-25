@@ -1,0 +1,24 @@
+body {
+    font-family: 'Ovo', serif;
+    background-color: #D4DBAF;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pix-container {
+    text-align: center;
+}
+
+.pix-image {
+    width: 80%;
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.pix-text {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
