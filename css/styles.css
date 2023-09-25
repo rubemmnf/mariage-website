@@ -51,13 +51,14 @@
     font-family: var(--font-playfair);
 }
 
-.second-block {
+.match-block {
+    background-color: var(--primary-background-color);
     background-size: cover;
     background-position: center;
     padding: 3.125rem 0;
 }
 
-.second-block .content {
+.match-block .content {
     text-align: center; 
     max-width: 60rem;
     margin: 0 auto; 
@@ -68,14 +69,14 @@
     height: 100%;
 }
 
-.second-block h2 {
+.match-block h2 {
     font-size: 2.5em;
     margin-bottom: 4rem;
     color: var(--secondary-font-color);
     font-family: var(--font-playfair);
 }
 
-.second-block p {
+.match-block p {
     font-size: 1.25em; 
     margin-bottom: 2.5rem;
     color: var(--secondary-font-color);
@@ -110,7 +111,7 @@
     }
 }
 
-.third-block {
+.carousel-block {
     padding: 3.125rem 0; 
     background-color: var(--primary-background-color);
 }
@@ -177,14 +178,25 @@
 
 
 .carousel-control-prev, .carousel-control-next {
-    width: 5%;
+    width: 3.5rem;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: black;
+    width: 2.5rem; 
+    height: 2.5rem; 
+    background-size: 2.5rem 2.5rem;
 }
 
-.fourth-block {
+.carousel-control-prev {
+    left: -2rem;
+}
+
+.carousel-control-next {
+    right: -2rem;
+}
+
+
+.location-block {
     padding: 3.125rem 0;
     background-color: var(--primary-background-color);
 }
@@ -214,7 +226,7 @@
     height: 30rem;
 }
 
-.fifth-block {
+.faq-block {
     padding: 3.125rem 0;
     background-color: var(--primary-background-color);
 }
@@ -246,7 +258,7 @@
     font-family: var(--font-playfair);
 }
 
-.sixth-block {
+.pix-block {
     background-size: cover;
     background-position: center;
     padding: 3.125rem 0;
@@ -272,7 +284,7 @@
     max-width: 50rem;
 }
 
-.seventh-block {
+.honey-moon-block {
     padding: 3.125rem 0;
     background-color: var(--primary-background-color);
 }
@@ -355,4 +367,9 @@
 .final-button:hover {
     color: var(--primary-font-color);
     background-color: var(--secondary-color);
+}
+
+section {
+    background-size: 100% 100%;
+    box-sizing: border-box;
 }
