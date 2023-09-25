@@ -165,6 +165,7 @@
     font-size: 2.5em;
     margin-bottom: 2.5rem;
     color: var(--primary-font-color);
+    text-align: center;
 }
 
 .left-content .location-image {
@@ -175,10 +176,143 @@
 .address-text {
     font-size: 1.25rem;
     color: var(--secondary-font-color);
+    text-align: center;
 }
 
 .right-content iframe {
     width: 100%;
-    height: 25rem;
+    height: 30rem;
 }
 
+.fifth-block {
+    padding: 3.125rem 0;
+    background-color: var(--primary-background-color);
+}
+
+.faq-title {
+    font-size: 3.5em;
+    margin-bottom: 2.5rem;
+    color: var(--primary-font-color);
+    text-align: left;
+}
+
+.faq-item {
+    margin-bottom: 2.5rem;
+}
+
+.question {
+    font-size: 1.5em;
+    color: var(--primary-font-color);
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.answer {
+    font-size: 1.25rem;
+    color: var(--secondary-font-color);
+    text-align: left;
+}
+
+.sixth-block {
+    background-size: cover;
+    background-position: center;
+    padding: 3.125rem 0;
+    text-align: center;
+}
+
+.gift-title {
+    font-size: 3.5em;
+    margin-bottom: 2.5rem;
+    color: var(--primary-font-color);
+}
+
+.gift-text {
+    font-size: 1.5em;
+    margin-bottom: 2.5rem;
+    color: var(--secondary-font-color);
+    text-align: justify center;
+}
+
+.pix-image {
+    max-width: 50rem;
+}
+
+.seventh-block {
+    padding: 3.125rem 0;
+    background-color: var(--primary-background-color);
+}
+
+.gift-block {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.gift-image {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.gift-text {
+    font-size: 1.25em;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-font-color);
+}
+
+.gift-button {
+    font-size: 1em;
+    color: var(--secondary-color);
+    background-color: var(--primary-font-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gift-button:hover {
+    color: var(--primary-font-color);
+    background-color: var(--secondary-color);
+}
+
+.gift-button-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.gift-button-link:hover .gift-button {
+    color: var(--primary-font-color);
+    background-color: var(--secondary-color);
+}
+
+.final-block {
+    background-size: cover;
+    background-position: center;
+    padding: 3.125rem 0;
+    color: var(--primary-font-color);
+}
+
+.final-title {
+    font-size: 3em;
+    margin-bottom: 7rem;
+}
+
+.final-text {
+    font-size: 1.5em;
+    margin-bottom: 7.5rem;
+}
+
+.final-button {
+    font-size: 1.5em;
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: var(--primary-font-color);
+    color: var(--secondary-color); 
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.final-button:hover {
+    color: var(--primary-font-color);
+    background-color: var(--secondary-color);
+}
