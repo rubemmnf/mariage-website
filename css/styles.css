@@ -55,7 +55,7 @@
     background-color: var(--primary-background-color);
     background-size: cover;
     background-position: center;
-    padding: 3.125rem 0;
+    padding: 3.125rem 0.125rem;
 }
 
 .match-block .content {
@@ -112,7 +112,7 @@
 }
 
 .carousel-block {
-    padding: 3.125rem 0; 
+    padding: 3.125rem 0.125rem; 
     background-color: var(--primary-background-color);
 }
 
@@ -197,7 +197,7 @@
 
 
 .location-block {
-    padding: 3.125rem 0;
+    padding: 3.125rem 0.125rem;
     background-color: var(--primary-background-color);
 }
 
@@ -227,12 +227,12 @@
 }
 
 .faq-block {
-    padding: 3.125rem 0;
+    padding: 3.125rem 0.125rem;
     background-color: var(--primary-background-color);
 }
 
 .faq-title {
-    font-size: 3.5em;
+    font-size: 2.5em;
     margin-bottom: 2.5rem;
     color: var(--primary-font-color);
     text-align: left;
@@ -261,7 +261,7 @@
 .pix-block {
     background-size: cover;
     background-position: center;
-    padding: 3.125rem 0;
+    padding: 3.125rem 0.125rem;
     text-align: center;
 }
 
@@ -284,20 +284,22 @@
     max-width: 50rem;
 }
 
-.honey-moon-block {
-    padding: 3.125rem 0;
-    background-color: var(--primary-background-color);
-}
-
 .gift-block {
-    margin-bottom: 2.5rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 1.5rem;
 }
 
 .gift-image {
-    max-width: 100%;
-    margin-bottom: 1.5rem;
+    height: 15rem;
+    width: auto;
+    max-width: 90%;
 }
+
 
 .gift-text {
     font-size: 1.25em;
@@ -336,7 +338,7 @@
 .final-block {
     background-size: cover;
     background-position: center;
-    padding: 3.125rem 0;
+    padding: 3.125rem 0.125rem;
     color: var(--primary-font-color);
 }
 
@@ -372,4 +374,11 @@
 section {
     background-size: 100% 100%;
     box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    section {
+        background-image: none !important;
+        background-color: var(--primary-background-color) !important;
+    }
 }
