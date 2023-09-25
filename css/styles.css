@@ -82,7 +82,7 @@
     font-family: var(--font-ovo);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767px) {
     .first-block .text-1,
     .first-block .text-2 {
         font-size: 1.25rem;
@@ -142,6 +142,27 @@
 
 .carousel-item img:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .carousel-item {
+        flex-direction: column; /* Stack images vertically */
+    }
+    .carousel-item img {
+        width: 100%; /* Full width for images */
+        margin-right: 0;
+        margin-bottom: 1%; /* You can adjust this value based on your preference */
+    }
+    .carousel-item img:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
 }
 
 .carousel-inner .carousel-item {
