@@ -348,6 +348,14 @@
     font-family: var(--font-playfair);
 }
 
+.list-text {
+    font-size: 1.5em;
+    margin-bottom: 2.5rem;
+    color: var(--secondary-font-color);
+    text-align: center;
+    font-family: var(--font-playfair);
+}
+
 .magalu-button, .ferreira-costa-button {
     font-size: 1em;
     color: var(--secondary-color);
@@ -373,14 +381,6 @@
 .magalu-button:hover, .ferreira-costa-button-link:hover .gift-button {
     color: var(--primary-font-color);
     background-color: var(--secondary-color);
-}
-
-.list-item {
-    font-size: 1.25em;
-    margin-bottom: 1.5rem;
-    color: var(--secondary-font-color);
-    text-align: center;
-    font-family: var(--font-playfair);
 }
 
 .final-block {
