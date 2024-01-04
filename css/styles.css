@@ -335,6 +335,54 @@
     background-color: var(--secondary-color);
 }
 
+.list-block {
+    padding: 3.125rem 0.125rem;
+    background-color: var(--primary-background-color);
+}
+
+.list-title {
+    font-size: 2.5em;
+    margin-bottom: 2.5rem;
+    color: var(--primary-font-color);
+    text-align: center;
+    font-family: var(--font-playfair);
+}
+
+.magalu-button, .ferreira-costa-button {
+    font-size: 1em;
+    color: var(--secondary-color);
+    background-color: var(--primary-font-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: var(--font-playfair);
+}
+
+.magalu-button:hover, .ferreira-costa-button:hover {
+    color: var(--primary-font-color);
+    background-color: var(--secondary-color);
+}
+
+.magalu-button, .ferreira-costa-button-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.magalu-button:hover, .ferreira-costa-button-link:hover .gift-button {
+    color: var(--primary-font-color);
+    background-color: var(--secondary-color);
+}
+
+.list-item {
+    font-size: 1.25em;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-font-color);
+    text-align: center;
+    font-family: var(--font-playfair);
+}
+
 .final-block {
     background-size: cover;
     background-position: center;
